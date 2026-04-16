@@ -9,7 +9,7 @@ This project is part of **Nexus Spring of Code (NSoC) 2026**.
 Contributors can work on open issues and submit pull requests following the contribution guidelines.
 
 Make sure your PR includes the tag **NSoC'26** so it can be tracked in the program leaderboard.
-```
+
 # 🌦️ Weather App
 
 > A simple and responsive weather application that provides real-time weather updates for any city in the world.
@@ -70,9 +70,8 @@ It uses the **OpenWeatherMap API** to fetch real-time data and displays it with 
 ┣ 📄 .gitignore
 ┣ 📄 README.md
 
-````
+```
 
----
 
 ## ⚙️ Installation & Setup
 
@@ -113,7 +112,8 @@ This project uses the **Weatherapi.com  API**.
 5. Create a config.js file (Refer config.example.js)
 6. Paste API Key in your config.js file:
 
-``` write in config.js file
+``` 
+config.js 
 
 const config = {
   WEATHER_API_KEY: "PASTE_YOUR_KEY_HERE",
@@ -136,6 +136,7 @@ const config = {
 ```
 For Deployed Version :
 https://weather-pink-psi-97.vercel.app/
+
 For Local Run :
 http://127.0.0.1:3000/index.html
 ```
@@ -167,8 +168,8 @@ Contributions are welcome! 🚀
    git push origin feature-name
    ```
 6. Open a Pull Request
-7. Get Your Pull Request Reviewed & Accepted
-8. Congrats ! Your Contribution Was Successful
+7. Get Your Pull Request Reviewed & Accepted ✅
+8. Congrats ! 👏 Your Contribution Was Successful
 
 ---
 
