@@ -1,3 +1,5 @@
+const apiKey = "f0133e94263d448c963164120261904";
+
 function getWeather() {
 
 const city = document.getElementById("city").value.trim();
@@ -6,8 +8,6 @@ if (!city) {
 alert("Please enter a city name");
 return;
 }
-
-const apiKey = config.WEATHER_API_KEY;
 
 const url =
 `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
